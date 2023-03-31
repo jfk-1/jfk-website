@@ -1,0 +1,37 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    background: #F6F6F6;
+    box-shadow: 16px 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footer-social > * + * {
+    margin-left: 2.5rem;
+}
+
+.social-item {
+    list-style-type: none;
+}
+
+.social-link {
+    color: #838383;
+
+}
+
+.social-link:hover {
+    color: var(--primary-blue);
+}
+
+.social-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+}
